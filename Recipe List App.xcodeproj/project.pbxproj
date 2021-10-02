@@ -21,6 +21,7 @@
 		E7483CA82705CDC5006B7D15 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7483CA72705CDC5006B7D15 /* Recipe.swift */; };
 		E7483CAA2705D047006B7D15 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7483CA92705D047006B7D15 /* RecipeModel.swift */; };
 		E7483CAD2705D368006B7D15 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7483CAC2705D368006B7D15 /* DataService.swift */; };
+		E751A18E2708CD08004F1B03 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751A18D2708CD08004F1B03 /* Rational.swift */; };
 		E7FC36AF2705EB4700CC1195 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC36AE2705EB4700CC1195 /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		E7483CA72705CDC5006B7D15 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		E7483CA92705D047006B7D15 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		E7483CAC2705D368006B7D15 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E751A18D2708CD08004F1B03 /* Rational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		E7FC36AE2705EB4700CC1195 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 		E7483C752705C2B7006B7D15 /* Recipe List App */ = {
 			isa = PBXGroup;
 			children = (
+				E751A18C2708CC54004F1B03 /* Utilities */,
 				E7483C762705C2B7006B7D15 /* Recipe_List_AppApp.swift */,
 				E7483CA42705C3E6006B7D15 /* Services */,
 				E7483CA32705C3AE006B7D15 /* Data */,
@@ -189,6 +192,14 @@
 				E7483CAC2705D368006B7D15 /* DataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		E751A18C2708CC54004F1B03 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E751A18D2708CD08004F1B03 /* Rational.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +340,7 @@
 				E7483C792705C2B7006B7D15 /* RecipeListView.swift in Sources */,
 				E70286AE27084FEE00FACCA3 /* RecipeFeaturedView.swift in Sources */,
 				E7483C772705C2B7006B7D15 /* Recipe_List_AppApp.swift in Sources */,
+				E751A18E2708CD08004F1B03 /* Rational.swift in Sources */,
 				E7483CAD2705D368006B7D15 /* DataService.swift in Sources */,
 				E71DF1412707476D004E52DB /* RecipeTabView.swift in Sources */,
 			);
