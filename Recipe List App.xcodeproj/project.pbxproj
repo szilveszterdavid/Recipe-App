@@ -22,6 +22,7 @@
 		E7483CAA2705D047006B7D15 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7483CA92705D047006B7D15 /* RecipeModel.swift */; };
 		E7483CAD2705D368006B7D15 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7483CAC2705D368006B7D15 /* DataService.swift */; };
 		E751A18E2708CD08004F1B03 /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751A18D2708CD08004F1B03 /* Rational.swift */; };
+		E7EFC49B270B66F10073BED9 /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EFC49A270B66F10073BED9 /* RecipeHighlights.swift */; };
 		E7FC36AF2705EB4700CC1195 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FC36AE2705EB4700CC1195 /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		E7483CA92705D047006B7D15 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		E7483CAC2705D368006B7D15 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E751A18D2708CD08004F1B03 /* Rational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		E7EFC49A270B66F10073BED9 /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
 		E7FC36AE2705EB4700CC1195 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,6 +159,7 @@
 				E7FC36AE2705EB4700CC1195 /* RecipeDetailView.swift */,
 				E71DF1402707476D004E52DB /* RecipeTabView.swift */,
 				E70286AD27084FEE00FACCA3 /* RecipeFeaturedView.swift */,
+				E7EFC49A270B66F10073BED9 /* RecipeHighlights.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				E7FC36AF2705EB4700CC1195 /* RecipeDetailView.swift in Sources */,
 				E7483CAA2705D047006B7D15 /* RecipeModel.swift in Sources */,
 				E7483C792705C2B7006B7D15 /* RecipeListView.swift in Sources */,
+				E7EFC49B270B66F10073BED9 /* RecipeHighlights.swift in Sources */,
 				E70286AE27084FEE00FACCA3 /* RecipeFeaturedView.swift in Sources */,
 				E7483C772705C2B7006B7D15 /* Recipe_List_AppApp.swift in Sources */,
 				E751A18E2708CD08004F1B03 /* Rational.swift in Sources */,
