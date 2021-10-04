@@ -27,7 +27,7 @@ struct RecipeDetailView: View {
                     .bold()
                     .padding(.top, 20)
                     .padding(.leading)
-                    .font(.largeTitle)
+                    .font(Font.custom("Avenir Heavy", size: 24))
                 
                 // MARK: Serving Size Picker
                 VStack(alignment: .leading) {
